@@ -246,7 +246,7 @@ section {
         top: 100%;
         right: -100%;
         width: 300px;
-        height: 55vh;
+        height: 60vh;
         background: #FED54A;
         display: flex;
         align-items: center;
@@ -269,4 +269,22 @@ section {
         width: 300px;
         height: auto;
     }
+}
+
+@media (max-width : 500px){
+    .hero {
+        transition: all .55s ease;
+    }
+    .hero-img img {
+        width: 300px;
+        height: auto;
+    }
+    .hero-text h1 {
+        font-size: 40px;
+    }
+    .hero-text a.ctaa {
+        margin-left: 0px;
+        margin-top: 20px;
+
+    } 
 }
